@@ -34,6 +34,7 @@ When finished, process results:
 ```
 cd TruffleHogResults
 ```
+```
 python app.py
 ```
 
