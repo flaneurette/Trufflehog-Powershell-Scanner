@@ -1,5 +1,5 @@
 # Trufflehog Powershell Scanner
-A powershell script to scan all github repos with trufflehog for Windows 11+
+A powershell script to scan all github repos with trufflehog for Windows 11+, with a Python server to display results. If secrets are found, they are labeled with a red color.
 
 # Requirements
 
@@ -31,7 +31,10 @@ Then:
 
 When finished, process results:
 
-```cd TruffleHogResults
-```python app.py```
+```
+cd TruffleHogResults
+```
+python app.py
+```
 
 Then open up the given URI, i.e. http://127.0.0.1:5000/
