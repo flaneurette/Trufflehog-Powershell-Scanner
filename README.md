@@ -12,7 +12,7 @@ gh auth token
 
 # Powershell
 
-```cd C:\your\path\to\truffle-scan.ps1```
+```cd C:\your\path\to\truffle-scan\```
 
 ```Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass```
 
