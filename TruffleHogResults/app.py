@@ -18,7 +18,7 @@ table { border-collapse: collapse; width: 100%; }
 th, td { border: 1px solid #ddd; padding: 6px; vertical-align: top; }
 th { background: #eee; }
 tr:hover { background: #f9f9f9; }
-pre { margin: 0; font-family: monospace; white-space: pre-wrap; word-break: break-word; max-height:50px; overflow:hidden; cursor:pointer; }
+pre { margin: 0; font-family: monospace; white-space: pre-wrap; word-break: break-word; cursor:pointer; }
 .red { background-color: #f8a0a0; }
 </style>
 </head>
