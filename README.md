@@ -5,6 +5,15 @@ A powershell script to scan all github repos with trufflehog for Windows 11+, wi
 
 - Docker on Windows.
 - Python on Windows.
+- Python Flask
+
+```
+pip install flask
+```
+Or, if your Python installation uses python3:
+```
+python -m pip install flask
+```
 
 Move this repo to your desktop and extract it, then:
 
