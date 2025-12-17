@@ -6,13 +6,13 @@ A powershell script to scan all github repos with trufflehog for Windows 11+, wi
 - Docker on Windows.
 - Python on Windows.
 
+Move this repo to your desktop and extract it, then:
+
 # API
 Get API token in Github, or in powershell:
 ```
 gh auth token
 ```
-
-Move this repo to your desktop and extract it, then:
 
 # Powershell
 
