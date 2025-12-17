@@ -1,5 +1,6 @@
 from flask import Flask, jsonify, render_template_string
 import os, json, re
+import string
 
 app = Flask(__name__)
 RESULTS_DIR = "."  # same folder as JSON files
@@ -82,8 +83,6 @@ loadData();
 @app.route('/')
 def index():
     return render_template_string(HTML_TEMPLATE)
-
-import string
 
 @app.route('/api/findings')
 def get_findings():
