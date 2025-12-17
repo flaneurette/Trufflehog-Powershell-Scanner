@@ -9,6 +9,7 @@ This is mainly useful to scan **your own github repos**, in case you left any se
 - Docker on Windows.
 - Python on Windows.
 - Python Flask
+- Github CLI for Windows
 
 ```
 pip install flask
